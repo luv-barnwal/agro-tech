@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.CartFragment">
+
+    <ImageView
+        android:id="@+id/prod_image"
+        android:layout_width="185dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:transitionName="image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prod2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="39dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_heart" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Quantity"
+        app:layout_constraintStart_toStartOf="@+id/prod_name"
+        app:layout_constraintTop_toBottomOf="@+id/prod_name" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Price"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/prod_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text="250 ml"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/prod_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_bold"
+        android:text="₹ 150.00"
+        android:textColor="#42995C"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/prod_qty"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="@+id/prod_qty" />
+
+    <TextView
+        android:id="@+id/prod_name"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Plant Perfume (Out of Stock)"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:background="@drawable/detail_page_cart_button_bg"
+        android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+        android:fontFamily="@font/rubik_medium"
+        android:padding="16dp"
+        android:paddingRight="16dp"
+        android:text="Proceed To Buy"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "898422618503",
+    "project_id": "agrotech-14355",
+    "storage_bucket": "agrotech-14355.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898422618503:android:7cf1e045b4d8d253077b22",
+        "android_client_info": {
+          "package_name": "com.luv.agrotech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898422618503-bk8595ppn9fgis7pqp6rcn981jpoplj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luv.agrotech",
+            "certificate_hash": "4f76f302d10d03445927aa8a23add46821755e8e"
+          }
+        },
+        {
+          "client_id": "898422618503-18p66kjesojef326o2l5p8nvpnjvro5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDyLO9kLm6fpD72y2owIm4Sy87IbM9gQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898422618503-18p66kjesojef326o2l5p8nvpnjvro5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
